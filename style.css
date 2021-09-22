@@ -58,10 +58,20 @@ a {
        margin-top: 30px;
            }
 
+.twitter :hover,
+.twiter :active {
+    background-color: #0b7bc1;
+}
+
 .facebook {
     background-color: #3b5998;
         margin-top: 5px;
            }
+
+.facebook :hover,
+.facebook :active {
+    background-color: #2b406e;
+}
 
 /*
 BARVY:
