@@ -24,8 +24,7 @@ p {
     background-color: white;
     width: 550px;
     border-radius: 10px;
-    margin: 0 auto;
-    margin-top: 150px;
+    margin: 150px auto 0 auto;
     padding: 30px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
 }
@@ -41,7 +40,7 @@ p {
 }
 
 a {
-    display: block;
+    display: inline-block;
     border-radius: 5px;
     text-decoration: none;
     text-transform: uppercase;
@@ -51,6 +50,7 @@ a {
     color: white;
     padding: 10px 0;
     text-align: center;
+    width: 100%;
 }
 
 .twitter {
@@ -58,8 +58,8 @@ a {
        margin-top: 30px;
            }
 
-.twitter :hover,
-.twiter :active {
+.twitter:hover,
+.twiter:active {
     background-color: #0b7bc1;
 }
 
@@ -68,10 +68,11 @@ a {
         margin-top: 5px;
            }
 
-.facebook :hover,
-.facebook :active {
+.facebook:hover,
+.facebook:active {
     background-color: #2b406e;
 }
+
 
 /*
 BARVY:
